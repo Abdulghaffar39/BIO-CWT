@@ -142,18 +142,75 @@ header div ul li ul li a{
 
 
 @media (max-width: 1260px) {
-    
-    .nav_value{
-        display: none;
-    }
 
-    header ul li .menu{
-        display: block !important;
-        color: var(--color-white);
-        width: 50px;
-        height: 25px;
-    }
+/* header started */
+header{
+    width: 702px;
+    height: 920px;
+    margin-bottom: 220px;
+    background-image: url(../Assets/images/imag.png);
+}
+
+.nav_value{
+    display: none;
+}
+header ul li .menu{
+    display: block !important;
+    color: var(--color-white);
+    width: 50px;
+    height: 25px;
+}
+/* header ended */
+
+
+/* solid started */
+.solid{
+    width: 850px;
+    height: 600px;
+    border-radius: 43px 0px 0px 43px;
+
+}
+
+.solid .wood {
+    width: 850px;
+    height: 600px;
     
+}
+
+.solid .wood div h1{
+    font-size: 62px;
+    margin-bottom: 18px;
+}
+
+.solid .wood div p{
+    font-size: 26px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.solid .wood div button{
+    width: 200px;
+    height: 52px;
+    border-radius: 38px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.solid .wood .center_div{
+    height: 390px;
+}
+
+.solid .wood .wood-img img{
+    width: 160px;
+    height: 160px;
+    border-radius: 44px;
+}
+
+.solid .wood .wood-img .wood-img-child{
+    position: relative;
+    top: 45px;
+}
+    /* solid ended */
 
 }
 
