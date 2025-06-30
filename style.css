@@ -1,1 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+
+}
+
+body{
+    font-size: 62.5%;
+    
+    background-image: url(../Assets/image/Group\ 9.png);
+    background-color: rgb(33, 31, 32);
+    color: white;
+}
+
+header{
+    background-image: url(../Assets/image/imag.png);
+    width: 902px;
+    height: 1080px;
+}
+
+header div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+header div .head_img{
+    width: 908px;
+    height: 1080px;
+
+}
+
+header .nav{
+    width: 100%;
+    padding: 50px 102px;
+}
+
+header div ul{
+    width: 100%;
+}
+
+header div ul li img{
+    width: 197px;
+    height: 83.8px;
+}
+
+header div ul li ul{
+    gap: 57px;
+}
+
+header div ul li ul li{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header .solid{
+    background-image: url(../Assets/image/Group\ 9.png);
+    background-color: #1e0c06;
+    width: 1245px;
+    height: 714px;
+    position: relative;
+    top: 218px;
+    left: 195px;
+    border-top-left-radius: 43px;
+    border-bottom-left-radius: 43px;
+
+}
+
 
