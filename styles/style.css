@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid var(--bg-white);
+    /* border: 1px solid var(--bg-white); */
 
 }
 
@@ -306,7 +306,6 @@ header div ul li ul li a {
     /* container 3 ended */
 
 }
-
 
 
 @media (max-width: 1260px) {
