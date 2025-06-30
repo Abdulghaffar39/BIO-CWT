@@ -18,7 +18,7 @@ body{
 header{
     width: 902px;
     height: 1080px;
-    margin-bottom: 266px;
+    margin-bottom: 156px;
     background-image: url(../Assets/images/imag.png);
 }
 
@@ -141,6 +141,78 @@ header div ul li ul li a{
 /* solid ended */
 
 
+/* container 2 started */
+.container_2{
+    margin-bottom: 258px;
+    width: 100%;
+    padding: 126px;
+    gap: 130px; 
+}
+
+.container_2 .parent_1{
+
+    width: 100%;
+    
+    position: relative;
+    left: 117px;
+}
+
+.container_2 .parent_1 h1{
+    font-size: 90px;
+    font-weight: 500;
+    font-family: 'kyiv';
+    text-transform: uppercase;
+
+}
+
+.container_2 .parent_2{
+    width: 100%;
+}
+
+.container_2 .parent_2 .child .grand_child_1 img{
+
+    width: 205px;
+    height: 205px;
+    border-radius: 42px; 
+    margin-bottom: 39px;
+}
+
+.container_2 .parent_2 .child .grand_child_1 h1{
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container_2 .parent_2 .child .grand_child_1{
+
+    width: 100%;
+    padding-right: 65px;
+    margin-bottom: 38px;
+}
+
+.container_2 .parent_2 .child .grand_child_2 .durability img{
+
+    width: 24.69;
+    height: 24.23;
+    margin-top: 12px;
+}
+
+.container_2 .parent_2 .child .grand_child_2 .durability p{
+    
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+/* container 2 ended */
+
+
+
+
+
+
+
+
+
 @media (max-width: 1260px) {
 
 /* header started */
@@ -157,8 +229,8 @@ header{
 header ul li .menu{
     display: block !important;
     color: var(--color-white);
-    width: 50px;
-    height: 25px;
+    width: 55px;
+    height: 30px;
 }
 /* header ended */
 
@@ -217,6 +289,191 @@ header ul li .menu{
 }
     /* solid ended */
 
+
+
+/* container 2 started */
+.container_2{
+    gap: 100px; 
+    padding: 96px;
+    margin-bottom: 228px;
+}
+
+.container_2 .parent_1{
+
+    position: relative;
+    left: 90px;
+}
+
+.container_2 .parent_1 h1{
+
+    font-size: 65px;
+}
+
+.container_2 .parent_2 .child .grand_child_1{
+    
+    margin-bottom: 86px;
+}
+
+.container_2 .parent_2 .child .grand_child_1 img{
+
+    width: 180px;
+    height: 180px;
+    border-radius: 38px; 
+    margin-bottom: 32px;
+}
+
+.container_2 .parent_2 .child .grand_child_1 h1{
+
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.container_2 .parent_2 .child .grand_child_2 .durability img{
+
+    width: 22.69;
+    height: 22.23;
+    margin-top: 10px;
+}
+
+.container_2 .parent_2 .child .grand_child_2 .durability p{
+    
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+/* container 2 ended */
+
+}
+
+
+@media (max-width: 1024px) {
+    
+
+/* container 2 started */
+.container_2{
+    gap: 100px; 
+    padding: 56px;
+    margin-bottom: 218px;
+}
+
+.container_2 .parent_1{
+
+    position: relative;
+    left: 0px;
+}
+
+.container_2 .parent_1 h1{
+
+    font-size: 45px;
+}
+
+.container_2 .parent_2 .child .grand_child_1{
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 38px;
+}
+
+.container_2 .parent_2 .child .grand_child_1 img{
+
+    width: 120px;
+    height: 120px;
+    border-radius: 24px; 
+    margin-bottom: 24px;
+}
+
+.container_2 .parent_2 .child .grand_child_2 .durability img{
+
+    width: 16.69;
+    height: 16.23;
+    margin-top: 10px;
+}
+
+.container_2 .parent_2 .child .grand_child_2 .durability p{
+    
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.Beautiful_texture{
+    display: none;
+}
+
+.Beautiful{
+    display: block !important;
+}
+
+.specail_box{
+    padding-top: 90px;
+}
+/* container 2 ended */
+
+}
+
+
+@media (max-width: 425px) {
+    
+
+/* container 2 started */
+.container_2{
+    margin-bottom: 218px;
+    width: 100%;
+    padding: 19px;
+    gap: 900px; 
+}
+
+.container_2 .parent_1{
+
+    position: relative;
+    left: 0px;
+}
+
+.container_2 .parent_1 h1{
+
+    font-size: 30px;
+}
+
+/* .container_2 .parent_2{
+    width: 100%;
+} */
+
+.container_2 .parent_2 .child .grand_child_1{
+
+    width: 100%;
+    padding-right: 0px;
+    margin-bottom: 16px;
+}
+
+.container_2 .parent_2 .child .grand_child_1 img{
+
+    width: 90px;
+    height: 90px;
+    border-radius: 14px; 
+    margin-bottom: 16px;
+}
+
+
+.container_2 .parent_2 .child .grand_child_1 h1{
+
+    font-size: 20px;
+}
+
+.container_2 .parent_2 .child .grand_child_2 .durability img{
+
+    width: 13px;
+    height: 13px;
+    margin-top: 12px;
+}
+
+.container_2 .parent_2 .child .grand_child_2 .durability p{
+    
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.specail_box{
+    padding-top: 60px;
+}
+/* container 2 ended */
 }
 
 
