@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid var(--bg-white); */
+
+}
+
+body{
+    font-size: 62.5%;
+    font-family: 'inter';
+
+    background-image: url(../Assets/images/Group\ 9.png);
+    background-color: var(--bg-black);
+    color: var(--color-white);
+}
+
+header{
+    width: 902px;
+    height: 1080px;
+    margin-bottom: 266px;
+    background-image: url(../Assets/images/imag.png);
+}
+
+header div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+header div .head_img{
+    width: 908px;
+    height: 1080px;
+
+}
+
+header .nav{
+    width: 100%;
+    padding: 50px 102px;
+}
+
+header div ul{
+    width: 100%;
+}
+
+header div ul li img{
+    width: 197px;
+    height: 83.8px;
+}
+
+header div ul li ul{
+    gap: 57px;
+}
+
+header div ul li ul li{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'montserrat';
+}
+
+header div ul li ul li a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+/* header ended */
+
+
+/* solid started */
+.solid{
+    width: 1245px;
+    height: 714px;
+    border-radius: 43px 0px 0px 43px;
+    background-color: var(--bg-brown);
+    background-image: url(../Assets/images/Group\ 9.png);
+
+    position: absolute;
+    top: 218px;
+    right: 0px;
+
+}
+
+.solid .wood {
+    width: 1245px;
+    height: 714px;
+    padding: 50px;
+    
+}
+
+.solid .wood .parent_solid_1{
+    height: 100%;
+}
+
+.solid .wood div h1{
+    font-size: 90px;
+    font-weight: 500;
+    font-family: 'kiyv';
+    margin-bottom: 22px;
+}
+
+.solid .wood div p{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 58px;
+}
+
+.solid .wood div button{
+    width: 225px;
+    height: 58px;
+    border-radius: 42px;
+    background-color: #728BAD;
+    color: var(--color-white);
+    font-size: 30px;
+    font-weight: 700;
+    border-style: none;
+}
+
+.solid .wood .center_div{
+    height: 512px;
+    border: 1px solid var(--color-white);
+    box-shadow: 0px 4px 52px 0px #F5F5F52B;
+}
+
+.solid .wood .wood-img{
+    width: 50%;
+    height: 100%;
+}
+
+.solid .wood .wood-img img{
+    width: 205px;
+    height: 205px;
+    border-radius: 48px;
+
+}
+
+.solid .wood .wood-img .wood-img-child{
+
+    position: relative;
+    top: 65px;
+}
+/* solid ended */
+
+
+@media (max-width: 1260px) {
+    
+    .nav_value{
+        display: none;
+    }
+
+    header ul li .menu{
+        display: block !important;
+        color: var(--color-white);
+        width: 50px;
+        height: 25px;
+    }
+    
+
+}
+
+
+
