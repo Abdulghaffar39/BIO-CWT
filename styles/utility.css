@@ -36,7 +36,12 @@
     --bg-brown: #1e0c06;
     --bg-black: rgb(33, 31, 32);
     --bg-white: hsl(0, 0%, 96%);
+    --bg-blue: rgb(114, 139, 173);
 
+}
+
+.bg-blue {
+    background-color: var(--bg-blue);
 }
 
 .bg-brown {
@@ -61,6 +66,11 @@
     --color-brown: #1e0c06;
     --color-black: rgb(33, 31, 32);
     --color-white: hsl(0, 0%, 96%);
+    --color-blue: rgb(114, 139, 173);
+}
+
+.color-blue {
+    color: var(--color-blue);
 }
 
 .color-brown {
