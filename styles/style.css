@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid white;
 }
 
 body {
@@ -331,6 +332,79 @@ header div ul li ul li a {
 /* container 4 ended */
 
 
+/* container 5 started */
+
+.container_5 {
+
+    gap: 62px;
+    width: 1325px;
+    height: 775px;
+    margin-bottom: 192px;
+    padding: 31px 30px;
+    padding-left: 190px;
+    border-radius: 0px 42px 42px 0px;
+    box-shadow: 0px 4px 52px 0px #F5F5F52B;
+
+    background-color: var(--bg-brown);
+    background-image: url(../Assets/images/Group\ 9.png);
+}
+
+.container_5 .parent_1 {
+
+    width: 501px;
+}
+
+.container_5 .parent_1 h1 {
+
+    font-size: 90px;
+    font-weight: 500;
+    font-family: kyiv;
+    margin-bottom: 67px;
+}
+
+.container_5 .parent_1 p {
+
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.container_5 .parent_2 {
+    width: 424px;
+    /* height: ; */
+    gap: 0;
+}
+
+.container_5 .parent_2 .up_down_img {
+
+    width: 205px;
+    height: 205px;
+    border-radius: 42px;
+}
+
+
+.container_5 .parent_2 .center_img {
+
+    width: 350px;
+    height: 347px;
+    border-radius: 42px;
+
+    position: relative;
+    top: -105px;
+    right: 74px;
+}
+
+
+.container_5 .parent_2 .end_img {
+
+
+    position: relative;
+    bottom: 85px;
+    right: 35px;
+}
+
+/* container 5 ended */
+
+
 
 
 
@@ -377,6 +451,96 @@ header div ul li ul li a {
     }
 
     /* container 3 ended */
+
+
+    /* container 5 started */
+
+    .container_5 {
+
+        gap: 82px;
+        width: 90%;
+        height: 1905px;
+        margin-bottom: 192px;
+        padding-left: 0px;
+        padding: 70px 70px;
+        border-radius: 0px 42px 42px 0px;
+        box-shadow: 0px 4px 52px 0px #F5F5F52B;
+
+        background-color: var(--bg-brown);
+        background-image: url(../Assets/images/Group\ 9.png);
+    }
+
+    .container_5 .parent_1 {
+
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container_5 .parent_1 h1 {
+
+        width: 70%;
+        font-size: 80px;
+        font-weight: 500;
+        font-family: kyiv;
+        margin-bottom: 67px;
+    }
+
+    .container_5 .parent_1 p {
+
+        width: 70%;
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    .container_5 .parent_2 {
+        width: 100%;
+
+        margin: 0 auto;
+    }
+
+    .container_5 .parent_2 .up_down_img {
+
+        width: 385px;
+        height: 385px;
+        border-radius: 42px;
+    }
+
+    .container_5 .parent_2 .up_down_img img {
+
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .container_5 .parent_2 .center_img {
+
+        width: 550px;
+        height: 547px;
+        border-radius: 42px;
+
+        position: relative;
+        top: -105px;
+        right: 74px;
+    }
+
+    .container_5 .parent_2 .center_img img {
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+    .container_5 .parent_2 .end_img {
+
+
+        position: relative;
+        bottom: 85px;
+        right: 35px;
+    }
+
+    /* container 5 ended */
+
 
 }
 
@@ -709,6 +873,7 @@ header div ul li ul li a {
 
     /* container 3 ended */
 
+
 }
 
 
@@ -910,4 +1075,80 @@ header div ul li ul li a {
     }
 
     /* container 4 ended */
+
+
+    /* container 5 started */
+
+    .container_5 {
+
+        gap: 82px;
+        width: 90%;
+        height: 674px;
+        margin-bottom: 192px;
+        padding-left: 0px;
+        padding: 47px 26px;
+        border-radius: 0px 42px 42px 0px;
+        box-shadow: 0px 4px 52px 0px #F5F5F52B;
+
+
+        background-color: var(--bg-brown);
+        background-image: url(../Assets/images/Group\ 9.png);
+    }
+
+    .container_5 .parent_1 {
+
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container_5 .parent_1 h1 {
+        width: 167px;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: kyiv;
+        margin-bottom: 38.3px;
+    }
+
+    .container_5 .parent_1 p {
+
+        width: 283px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .container_5 .parent_2 {
+        width: 100%;
+        /* height: ; */
+        margin: 0 auto;
+    }
+
+    .container_5 .parent_2 .up_down_img {
+
+        width: 111px;
+        height: 112px;
+        border-radius: 14px;
+    }
+
+
+    .container_5 .parent_2 .center_img {
+
+        width: 190px;
+        height: 189px;
+        border-radius: 14px;
+
+        position: relative;
+        top: -105px;
+        right: 74px;
+    }
+
+
+    .container_5 .parent_2 .end_img {
+
+
+        position: relative;
+        bottom: 85px;
+        right: 35px;
+    }
+
+    /* container 5 ended */
 }
