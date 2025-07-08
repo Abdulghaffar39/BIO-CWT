@@ -139,3 +139,15 @@
 }
 
 /* container 3 ended */
+
+
+/* z-index started */
+#z-1 {
+    z-index: 1000 !important;
+}
+
+#z-0 {
+    z-index: -1000 !important;
+}
+
+/* z-index ended */
