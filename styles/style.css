@@ -154,8 +154,8 @@ header div ul li ul li a {
 
     width: 100%;
 
-    position: relative;
-    left: 117px;
+    /* position: relative;
+    left: 117px; */
 }
 
 .container_2 .parent_1 h1 {
@@ -212,7 +212,7 @@ header div ul li ul li a {
 .container_3 {
     gap: 121px;
     width: 100%;
-    padding: 0px 40px;
+    padding: 0px 0px;
     margin-bottom: 178px;
 }
 
@@ -225,7 +225,7 @@ header div ul li ul li a {
     font-size: 90px;
     font-weight: 500;
     font-family: 'kyiv';
-    padding-left: 198px;
+    /* padding-left: 198px; */
 
 }
 
@@ -240,15 +240,15 @@ header div ul li ul li a {
 
 .container_3 .parent_2 .chicken_images .main_chicken {
 
-    width: 1130px;
+    width: 100%;
     height: 754px;
     border-radius: 42px;
 
 }
 
 .container_3 .parent_2 .chicken_images .arrows {
-    width: 100px;
-    height: 100px;
+    width: 10%;
+    height: 10%;
 
 }
 
@@ -263,9 +263,10 @@ header div ul li ul li a {
 
 /* container 4 started */
 .container_4 {
+
     gap: 121px;
     width: 100%;
-    padding: 0px 101px;
+    padding: 0px 126px;
     margin-bottom: 294px;
 }
 
@@ -276,14 +277,17 @@ header div ul li ul li a {
 }
 
 .container_4 .parent_1 h1 {
+
     font-size: 90px;
     font-weight: 500;
     font-family: 'kyiv';
-    padding-left: 137px;
+    padding-left: 0px;
 
 }
 
 .container_4 .parent_2 {
+
+    width: 100%;
     gap: 121px;
 }
 
@@ -341,7 +345,7 @@ header div ul li ul li a {
     height: 775px;
     margin-bottom: 192px;
     padding: 31px 30px;
-    padding-left: 190px;
+    padding-left: 126px;
     border-radius: 0px 42px 42px 0px;
     box-shadow: 0px 4px 52px 0px #F5F5F52B;
 
@@ -358,7 +362,7 @@ header div ul li ul li a {
 
     font-size: 90px;
     font-weight: 500;
-    font-family: kyiv;
+    font-family: "kyiv";
     margin-bottom: 67px;
 }
 
@@ -410,7 +414,7 @@ header div ul li ul li a {
 .container_6 {
 
     width: 100%;
-    padding: 0px 102px;
+    padding: 0px 126px;
 }
 
 .container_6 .parent_1 {
@@ -598,7 +602,7 @@ footer .parent_3 {
     }
 
     .container_3 .parent_1 h1 {
-        font-size: 70px;
+        font-size: 90px;
         padding-left: 0px !important;
 
     }
@@ -658,7 +662,7 @@ footer .parent_3 {
     .container_5 .parent_1 h1 {
 
         width: 70%;
-        font-size: 80px;
+        font-size: 90px;
         font-weight: 500;
         font-family: kyiv;
         margin-bottom: 67px;
@@ -667,7 +671,7 @@ footer .parent_3 {
     .container_5 .parent_1 p {
 
         width: 70%;
-        font-size: 26px;
+        font-size: 30px;
         font-weight: 500;
     }
 
@@ -758,16 +762,16 @@ footer .parent_3 {
     .solid .wood {
         width: 850px;
         height: 700px;
-
+        gap: 20px;
     }
 
     .solid .wood div h1 {
-        font-size: 62px;
+        font-size: 60px;
         margin-bottom: 22px;
     }
 
     .solid .wood div p {
-        font-size: 26px;
+        font-size: 25px;
         margin-bottom: 54px;
         font-weight: 400;
     }
@@ -776,7 +780,7 @@ footer .parent_3 {
         width: 200px;
         height: 52px;
         border-radius: 38px;
-        font-size: 26px;
+        font-size: 25px;
         font-weight: 600;
     }
 
@@ -806,19 +810,19 @@ footer .parent_3 {
     /* container 2 started */
     .container_2 {
         gap: 100px;
-        padding: 96px;
+        padding: 90px;
         margin-bottom: 228px;
     }
 
-    .container_2 .parent_1 {
+    /* .container_2 .parent_1 {
 
         position: relative;
         left: 90px;
-    }
+    } */
 
     .container_2 .parent_1 h1 {
 
-        font-size: 65px;
+        font-size: 60px;
     }
 
     .container_2 .parent_2 .child .grand_child_1 {
@@ -836,31 +840,38 @@ footer .parent_3 {
 
     .container_2 .parent_2 .child .grand_child_1 h1 {
 
-        font-size: 26px;
+        font-size: 25px;
         font-weight: 600;
     }
 
     .container_2 .parent_2 .child .grand_child_2 .durability img {
 
-        width: 22.69;
-        height: 22.23;
+        width: 22.69px;
+        height: 22.23px;
         margin-top: 10px;
     }
 
     .container_2 .parent_2 .child .grand_child_2 .durability p {
 
-        font-size: 26px;
+        font-size: 25px;
         margin-bottom: 20px;
     }
 
     /* container 2 ended */
 
 
+    /* container 3 started */
+    .container_3 .parent_1 {
+        padding-left: 126px !important;
+    }
+
+    /* container 3 ended */
+
     /* container 4 started */
     .container_4 {
         gap: 101px;
         width: 100%;
-        padding: 0px 80px;
+        padding: 0px 90px;
         margin-bottom: 294px;
     }
 
@@ -872,7 +883,7 @@ footer .parent_3 {
 
     .container_4 .parent_1 h1 {
         width: 100%;
-        font-size: 50px;
+        font-size: 60px;
         font-weight: 500;
         font-family: 'kyiv';
         padding-left: 30px;
@@ -924,7 +935,7 @@ footer .parent_3 {
 
     .container_4 .parent_2 .container_4special .grand_child_2 .para_1 p {
 
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .container_4 .parent_2 .child_2 {
@@ -941,12 +952,19 @@ footer .parent_3 {
     .container_4 .parent_2 .child_2 h1 {
 
         padding-top: 10px;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 700;
     }
 
     /* container 4 ended */
 
+
+    /* container 5 started */
+    .container_5 {
+        padding-left: 90px;
+    }
+
+    /* container 5 ended */
 
 
     /* container 6 started */
@@ -954,7 +972,8 @@ footer .parent_3 {
     .container_6 {
 
         width: 100%;
-        padding: 0px 20px;
+        padding: 0px 90px;
+        /* padding-left: 70px; */
         margin-bottom: 93px !important;
     }
 
@@ -962,7 +981,7 @@ footer .parent_3 {
 
         width: 100%;
         margin-bottom: 45px;
-        padding: 0px 20px;
+        padding: 0px 0px;
 
         display: flex;
         justify-content: center;
@@ -971,7 +990,7 @@ footer .parent_3 {
 
     .container_6 .parent_1 h1 {
 
-        font-size: 70px;
+        font-size: 60px;
         font-weight: 500;
         font-family: 'kyiv';
     }
@@ -1011,7 +1030,7 @@ footer .parent_3 {
         width: 100%;
         height: 77px;
         padding: 30px;
-        font-size: 30px;
+        font-size: 25px;
         border-radius: 42px;
         color: var(--color-gray);
         background-color: transparent;
@@ -1024,7 +1043,7 @@ footer .parent_3 {
         height: 257px;
         padding-left: 30px;
         padding-top: 10px;
-        font-size: 30px;
+        font-size: 25px;
         border-radius: 42px;
         color: var(--color-gray);
         background-color: transparent;
@@ -1035,7 +1054,7 @@ footer .parent_3 {
 
         height: 58px;
         width: 216px;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 700;
         border-radius: 42px;
         border: none;
@@ -1131,19 +1150,19 @@ footer .parent_3 {
     /* container 2 started */
     .container_2 {
         gap: 100px;
-        padding: 56px;
+        padding: 55px;
         margin-bottom: 108px;
     }
 
-    .container_2 .parent_1 {
+    /* .container_2 .parent_1 {
 
         position: relative;
         left: 0px;
-    }
+    } */
 
     .container_2 .parent_1 h1 {
 
-        font-size: 45px;
+        font-size: 60px;
     }
 
     .container_2 .parent_2 .child .grand_child_1 {
@@ -1169,7 +1188,7 @@ footer .parent_3 {
 
     .container_2 .parent_2 .child .grand_child_2 .durability p {
 
-        font-size: 22px;
+        font-size: 30px;
         margin-bottom: 10px;
     }
 
@@ -1228,19 +1247,45 @@ footer .parent_3 {
     /* container 3 ended */
 
 
+    /* container 4 started */
+    .container_4 {
+        padding: 55px;
+    }
+
+    /* container 4 ended */
+
+
+    /* container 5 started */
+    .container_5 {
+        padding-left: 55px;
+    }
+
+    /* container 5 ended */
+
+
+
+    /* container 6 started */
+    .container_6 {
+        padding: 55px;
+    }
+
+    /* container 6 ended */
+
+
     /* footer started */
     .footer {
 
         gap: 35px;
         width: 100%;
         height: 502px;
-        padding: 72px 49px;
+        padding: 62px 49px;
         background-color: var(--bg-black);
         box-shadow: 0px -6px 52px 0px #F5F5F52B;
     }
 
     footer .parent_3 {
 
+        width: 100%;
         display: block !important;
 
         display: flex;
@@ -1252,16 +1297,15 @@ footer .parent_3 {
 
     footer .parent_3 .child_1 {
 
-        width: 162px;
-        height: 69px;
+        width: 220px;
         margin: 0 auto;
         margin-bottom: 43px;
     }
 
     footer .parent_3 .child_1 img {
 
-        width: 162px;
-        height: 69px;
+        width: 100%;
+        height: 100%;
 
     }
 
@@ -1274,14 +1318,14 @@ footer .parent_3 {
 
     footer .parent_3 .child_2 img {
 
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
 
     footer .parent_3 .child_2 p {
 
-        width: 231px;
-        font-size: 20px;
+        width: 351px;
+        font-size: 25px;
         font-weight: 500;
         padding-top: 18px;
     }
@@ -1289,20 +1333,21 @@ footer .parent_3 {
     footer .parent_3 .child_3 {
 
         gap: 10px;
-        height: 62px;
+
         margin: 0 auto;
         margin-bottom: 35px;
     }
 
     footer .parent_3 .child_3 img {
 
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
 
     footer .parent_3 .child_3 p {
 
-        font-size: 20px;
+        width: 351px;
+        font-size: 25px;
         font-weight: 500;
         padding-top: 12px;
     }
@@ -1316,7 +1361,7 @@ footer .parent_3 {
 
     footer .parent_3 .child_4 p {
 
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 500;
     }
 
@@ -1355,7 +1400,7 @@ footer .parent_3 {
 
     .container_6 .parent_1 .child_1 h1 {
         font-family: 'kyiv';
-        font-size: 70px;
+        font-size: 60px;
         font-weight: 500;
     }
 
@@ -1843,18 +1888,12 @@ footer .parent_3 {
 
     footer .parent_3 .child_1 {
 
-        width: 162px;
-        height: 69px;
+        width: 550px;
         margin: 0 auto;
         margin-bottom: 43px;
     }
 
-    footer .parent_3 .child_1 img {
 
-        width: 162px;
-        height: 69px;
-
-    }
 
     footer .parent_3 .child_2 {
 
@@ -1872,7 +1911,7 @@ footer .parent_3 {
     footer .parent_3 .child_2 p {
 
         width: 231px;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 500;
         padding-top: 18px;
     }
@@ -1880,7 +1919,6 @@ footer .parent_3 {
     footer .parent_3 .child_3 {
 
         gap: 10px;
-        height: 62px;
         margin: 0 auto;
         margin-bottom: 35px;
     }
@@ -1893,6 +1931,7 @@ footer .parent_3 {
 
     footer .parent_3 .child_3 p {
 
+        width: 231px;
         font-size: 15px;
         font-weight: 500;
         padding-top: 12px;
@@ -1905,7 +1944,7 @@ footer .parent_3 {
 
     footer .parent_3 .child_4 p {
 
-        font-size: 15px;
+        font-size: 35px;
         font-weight: 500;
     }
 
