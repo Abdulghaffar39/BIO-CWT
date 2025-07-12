@@ -15,12 +15,10 @@ body {
 }
 
 header {
-    width: 902px;
-    height: 1080px;
+
     margin-bottom: 86px;
-    background-image: url(../Assets/images/imag.png);
-    border-radius: 0px !important;
 }
+
 
 header div {
     position: absolute;
@@ -36,8 +34,10 @@ header div .head_img {
 }
 
 header .nav {
+    background-color: var(--bg-brown);
     width: 100%;
     padding: 50px 102px;
+    border-radius: 0px 0px 80px 80px;
 }
 
 header div ul {
@@ -72,87 +72,6 @@ header div ul li ul li a:hover {
 
 /* header ended */
 
-
-/* solid started */
-.solid {
-    width: 1245px;
-    height: 714px;
-    border-radius: 43px 0px 0px 43px;
-    background-color: var(--bg-brown);
-    background-image: url(../Assets/images/Group\ 9.png);
-
-    position: absolute;
-    top: 218px;
-    right: 0px;
-
-}
-
-.solid .wood {
-    width: 1245px;
-    height: 714px;
-    padding: 50px;
-
-}
-
-.solid .wood .parent_solid_1 {
-    height: 100%;
-}
-
-.solid .wood div h1 {
-    font-size: 90px;
-    font-weight: 500;
-    font-family: 'kyiv';
-    margin-bottom: 22px;
-}
-
-.solid .wood div p {
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 58px;
-}
-
-.solid .wood div button {
-    width: 225px;
-    height: 58px;
-    border-radius: 42px;
-    background-color: #728BAD;
-    color: var(--color-white);
-    font-size: 30px;
-    font-weight: 700;
-    border-style: none;
-}
-
-.solid .wood div button:hover {
-
-    box-shadow: 0 0 1rem 0.1rem var(--bg-blue);
-    font-size: 32px;
-}
-
-.solid .wood .center_div {
-    height: 512px;
-    border: 1px solid var(--color-white);
-    box-shadow: 0px 4px 52px 0px #F5F5F52B;
-}
-
-.solid .wood .wood-img {
-    width: 50%;
-    height: 100%;
-}
-
-.solid .wood .wood-img img {
-    width: 205px;
-    height: 205px;
-    border-radius: 48px;
-
-}
-
-.solid .wood .wood-img .wood-img-child {
-
-    position: relative;
-    top: 65px;
-}
-
-/* solid ended */
 
 
 /* container 2 started */
@@ -228,6 +147,7 @@ header div ul li ul li a:hover {
     width: 100%;
     padding: 0px 0px;
     margin-bottom: 178px;
+    margin-top: 300px;
 }
 
 .container_3 .parent_1 {
@@ -273,168 +193,6 @@ header div ul li ul li a:hover {
 }
 
 /* container 3 ended */
-
-
-/* container 4 started */
-.container_4 {
-
-    gap: 121px;
-    width: 100%;
-    padding: 0px 126px;
-    margin-bottom: 294px;
-}
-
-.container_4 .parent_1 {
-
-    width: 100%;
-    gap: 132px;
-}
-
-.container_4 .parent_1 h1 {
-
-    font-size: 90px;
-    font-weight: 500;
-    font-family: 'kyiv';
-    padding-left: 0px;
-
-}
-
-.container_4 .parent_2 {
-
-    width: 100%;
-    gap: 121px;
-}
-
-.container_4 .parent_2 .child_1 {
-    width: 100%;
-    gap: 126px;
-}
-
-.container_4 .parent_2 .child_1 .grand_child_1 {
-
-    width: 609px;
-    height: 386px;
-    border-radius: 42px;
-}
-
-.container_4 .parent_2 .child_1 .grand_child_2 {
-
-    width: 453px;
-    height: 386px;
-}
-
-.container_4 .parent_2 .child_1 .grand_child_2 .para_1 p {
-
-    font-size: 30px;
-    font-weight: 500;
-}
-
-.container_4 .parent_2 .child_2 {
-
-    width: 472px;
-    height: 58px;
-    border-radius: 42px;
-    margin-bottom: 11px;
-    background-color: var(--bg-blue);
-    color: var(--color-white);
-    text-align: center;
-    cursor: pointer;
-}
-
-.container_4 .parent_2 .child_2:hover {
-
-    box-shadow: 0 0 1rem 0.1rem var(--bg-blue);
-}
-
-.container_4 .parent_2 .child_2 h1 {
-
-    padding-top: 10px;
-    font-size: 30px;
-    font-weight: 700;
-    width: 100%;
-    height: 100%;
-}
-
-.container_4 .parent_2 .child_2 h1:hover {
-
-    font-size: 32px;
-}
-
-/* container 4 ended */
-
-
-/* container 5 started */
-
-.container_5 {
-
-    gap: 62px;
-    width: 1325px;
-    height: 775px;
-    margin-bottom: 192px;
-    padding: 31px 30px;
-    padding-left: 126px;
-    border-radius: 0px 42px 42px 0px;
-    box-shadow: 0px 4px 52px 0px #F5F5F52B;
-
-    background-color: var(--bg-brown);
-    background-image: url(../Assets/images/Group\ 9.png);
-}
-
-.container_5 .parent_1 {
-
-    width: 501px;
-}
-
-.container_5 .parent_1 h1 {
-
-    font-size: 90px;
-    font-weight: 500;
-    font-family: "kyiv";
-    margin-bottom: 67px;
-}
-
-.container_5 .parent_1 p {
-
-    font-size: 30px;
-    font-weight: 500;
-}
-
-.container_5 .parent_2 {
-    width: 424px;
-    /* height: ; */
-    gap: 0;
-}
-
-.container_5 .parent_2 .up_down_img {
-
-    width: 205px;
-    height: 205px;
-    border-radius: 42px;
-}
-
-
-.container_5 .parent_2 .center_img {
-
-    width: 350px;
-    height: 347px;
-    border-radius: 42px;
-
-    position: relative;
-    top: -105px;
-    right: 74px;
-}
-
-
-.container_5 .parent_2 .end_img {
-
-
-    position: relative;
-    bottom: 85px;
-    right: 35px;
-}
-
-/* container 5 ended */
-
 
 
 /* container 6 started */
