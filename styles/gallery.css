@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* border: 1px solid white; */
+    border: 1px solid white;
 }
 
 body {
@@ -16,9 +16,8 @@ body {
 
 header {
 
-    margin-bottom: 86px;
+    margin-bottom: 300px;
 }
-
 
 header div {
     position: absolute;
@@ -34,10 +33,11 @@ header div .head_img {
 }
 
 header .nav {
-    background-color: var(--bg-brown);
     width: 100%;
     padding: 50px 102px;
-    border-radius: 0px 0px 80px 80px;
+    background-color: var(--bg-brown);
+    border-radius: 0px 0px 100px 100px;
+    box-shadow: 0px -6px 52px 0px #F5F5F52B;
 }
 
 header div ul {
@@ -71,7 +71,6 @@ header div ul li ul li a:hover {
 }
 
 /* header ended */
-
 
 
 /* container 2 started */
@@ -147,7 +146,6 @@ header div ul li ul li a:hover {
     width: 100%;
     padding: 0px 0px;
     margin-bottom: 178px;
-    margin-top: 300px;
 }
 
 .container_3 .parent_1 {
@@ -423,106 +421,22 @@ footer .parent_3 {
 
     /* container 3 ended */
 
-
-    /* container 5 started */
-
-    .container_5 {
-
-        gap: 82px;
-        width: 90%;
-        height: 1905px;
-        margin-bottom: 192px;
-        padding-left: 0px;
-        padding: 70px 70px;
-        border-radius: 0px 42px 42px 0px;
-        box-shadow: 0px 4px 52px 0px #F5F5F52B;
-
-        background-color: var(--bg-brown);
-        background-image: url(../Assets/images/Group\ 9.png);
-    }
-
-    .container_5 .parent_1 {
-
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .container_5 .parent_1 h1 {
-
-        width: 70%;
-        font-size: 90px;
-        font-weight: 500;
-        font-family: kyiv;
-        margin-bottom: 67px;
-    }
-
-    .container_5 .parent_1 p {
-
-        width: 70%;
-        font-size: 30px;
-        font-weight: 500;
-    }
-
-    .container_5 .parent_2 {
-        width: 100%;
-
-        margin: 0 auto;
-    }
-
-    .container_5 .parent_2 .up_down_img {
-
-        width: 385px;
-        height: 385px;
-        border-radius: 42px;
-    }
-
-    .container_5 .parent_2 .up_down_img img {
-
-        width: 100%;
-        height: 100%;
-    }
-
-
-    .container_5 .parent_2 .center_img {
-
-        width: 550px;
-        height: 547px;
-        border-radius: 42px;
-
-        position: relative;
-        top: -105px;
-        right: 74px;
-    }
-
-    .container_5 .parent_2 .center_img img {
-
-        width: 100%;
-        height: 100%;
-
-    }
-
-
-    .container_5 .parent_2 .end_img {
-
-
-        position: relative;
-        bottom: 85px;
-        right: 35px;
-    }
-
-    /* container 5 ended */
-
-
 }
 
 @media (max-width: 1260px) {
 
     /* header started */
     header {
-        width: 902px;
-        height: 1080px;
-        margin-bottom: 266px;
-        background-image: url(../Assets/images/imag.png);
+
+        margin-bottom: 300px;
+    }
+
+    header .nav {
+        width: 100%;
+        padding: 50px 102px;
+        background-color: var(--bg-brown);
+        border-radius: 0px 0px 100px 100px;
+        box-shadow: 0px -6px 52px 0px #F5F5F52B;
     }
 
     .nav_value {
@@ -537,68 +451,6 @@ footer .parent_3 {
     }
 
     /* header ended */
-
-
-    /* solid started */
-    .solid {
-        width: 850px;
-        height: 700px;
-        border-radius: 43px 0px 0px 43px;
-
-    }
-
-    .solid .wood {
-        width: 850px;
-        height: 700px;
-        gap: 20px;
-    }
-
-    .solid .wood div h1 {
-        font-size: 60px;
-        margin-bottom: 22px;
-    }
-
-    .solid .wood div p {
-        font-size: 25px;
-        margin-bottom: 54px;
-        font-weight: 400;
-    }
-
-    .solid .wood div button {
-        width: 200px;
-        height: 52px;
-        border-radius: 38px;
-        font-size: 25px;
-        font-weight: 600;
-    }
-
-    .solid .wood div button:hover {
-
-        box-shadow: 0 0 1rem 0.1rem var(--bg-blue);
-        font-size: 26px;
-    }
-
-    .solid .wood .center_div {
-        height: 410px;
-    }
-
-    .solid .wood .wood-img {
-        width: 50%;
-        height: 90%;
-    }
-
-    .solid .wood .wood-img img {
-        width: 160px;
-        height: 160px;
-        border-radius: 44px;
-    }
-
-    .solid .wood .wood-img .wood-img-child {
-        position: relative;
-        top: 45px;
-    }
-
-    /* solid ended */
 
 
     /* container 2 started */
@@ -660,117 +512,6 @@ footer .parent_3 {
     }
 
     /* container 3 ended */
-
-    /* container 4 started */
-    .container_4 {
-        gap: 101px;
-        width: 100%;
-        padding: 0px 90px;
-        margin-bottom: 294px;
-    }
-
-    .container_4 .parent_1 {
-
-        width: 100%;
-        gap: 132px;
-    }
-
-    .container_4 .parent_1 h1 {
-        width: 100%;
-        font-size: 60px;
-        font-weight: 500;
-        font-family: 'kyiv';
-        padding-left: 30px;
-
-    }
-
-    .container_4 .parent_2 {
-        width: 100%;
-        gap: 121px;
-    }
-
-    .container_4 .parent_2 .child_1 {
-        display: none !important;
-    }
-
-    .container_4 .parent_2 .container_4special {
-        display: inline !important;
-        width: 100%;
-        gap: 126px;
-    }
-
-    .container_4 .parent_2 .container_4special {
-
-        width: 100%;
-        gap: 326px;
-    }
-
-    .container_4 .parent_2 .container_4special .grand_child_1 {
-
-        width: 100%;
-        /* height: 386px; */
-        border-radius: 42px;
-    }
-
-    .container_4 .parent_2 .container_4special .grand_child_1 img {
-
-        width: 100%;
-        height: 100%;
-        border-radius: 42px;
-    }
-
-    .container_4 .parent_2 .container_4special .grand_child_2 {
-
-        width: 70%;
-        padding: 20px;
-        margin-bottom: 120px;
-        gap: 50px;
-    }
-
-    .container_4 .parent_2 .container_4special .grand_child_2 .para_1 p {
-
-        font-size: 25px;
-    }
-
-    .container_4 .parent_2 .child_2 {
-
-        width: 472px;
-        height: 58px;
-        border-radius: 42px;
-        margin-bottom: 11px;
-        background-color: var(--bg-blue);
-        color: var(--color-white);
-        text-align: center;
-    }
-
-    .container_4 .parent_2 .child_2:hover {
-
-        box-shadow: 0 0 1rem 0.1rem var(--bg-blue);
-    }
-
-    .container_4 .parent_2 .child_2 h1 {
-
-        padding-top: 10px;
-        font-size: 25px;
-        font-weight: 700;
-        width: 100%;
-        height: 100%;
-    }
-
-    .container_4 .parent_2 .child_2 h1:hover {
-
-        font-size: 26px;
-    }
-
-    /* container 4 ended */
-
-
-    /* container 5 started */
-    .container_5 {
-        padding-left: 90px;
-    }
-
-    /* container 5 ended */
 
 
     /* container 6 started */
@@ -1053,23 +794,6 @@ footer .parent_3 {
     /* container 3 ended */
 
 
-    /* container 4 started */
-    .container_4 {
-        padding: 55px;
-    }
-
-    /* container 4 ended */
-
-
-    /* container 5 started */
-    .container_5 {
-        padding-left: 55px;
-    }
-
-    /* container 5 ended */
-
-
-
     /* container 6 started */
     .container_6 {
         padding: 55px;
@@ -1134,6 +858,7 @@ footer .parent_3 {
         font-size: 25px;
         font-weight: 500;
         padding-top: 18px;
+        text-align: center;
     }
 
     footer .parent_3 .child_3 {
@@ -1152,7 +877,6 @@ footer .parent_3 {
 
     footer .parent_3 .child_3 p {
 
-        width: 351px;
         font-size: 25px;
         font-weight: 500;
         padding-top: 12px;
@@ -1409,170 +1133,6 @@ footer .parent_3 {
     }
 
     /* container 3 ended */
-
-
-
-    /* container 4 started */
-    .container_4 {
-        gap: 46px;
-        width: 100%;
-        padding: 0px 11px;
-        margin-bottom: 93px;
-    }
-
-    .container_4 .parent_1 {
-
-        width: 100%;
-        gap: 46px;
-    }
-
-    .container_4 .parent_1 h1 {
-        width: 100%;
-        font-size: 30px;
-        font-weight: 500;
-        font-family: 'kyiv';
-        padding-left: 8px;
-
-    }
-
-    .container_4 .parent_2 {
-        width: 100%;
-        gap: 46px;
-    }
-
-    .container_4 .parent_2 .child_1 {
-        display: none !important;
-    }
-
-    .container_4 .parent_2 .container_4special {
-        display: inline !important;
-        width: 100%;
-        gap: 46px;
-    }
-
-    .container_4 .parent_2 .container_4special .grand_child_1 {
-
-        width: 100%;
-        /* height: 386px; */
-        border-radius: 42px;
-    }
-
-    .container_4 .parent_2 .container_4special .grand_child_1 img {
-
-        width: 100%;
-        height: 100%;
-        border-radius: 14px;
-    }
-
-    .container_4 .parent_2 .container_4special .grand_child_2 {
-
-        width: 70%;
-        padding: 6px;
-        margin-bottom: 46px;
-    }
-
-    .container_4 .parent_2 .container_4special .grand_child_2 .para_1 p {
-
-        font-size: 15px;
-    }
-
-    .container_4 .parent_2 .child_2 {
-
-        width: 219px;
-        height: 33px;
-        border-radius: 42px;
-        margin-bottom: 0px;
-        background-color: var(--bg-blue);
-        color: var(--color-white);
-        text-align: center;
-    }
-
-
-
-    .container_4 .parent_2 .child_2 h1 {
-
-        padding-top: 10px;
-        font-size: 15px;
-        font-weight: 700;
-    }
-
-    /* container 4 ended */
-
-
-    /* container 5 started */
-
-    .container_5 {
-
-        gap: 82px;
-        width: 90%;
-        height: 674px;
-        margin-bottom: 192px;
-        padding-left: 0px;
-        padding: 47px 26px;
-        border-radius: 0px 42px 42px 0px;
-        box-shadow: 0px 4px 52px 0px #F5F5F52B;
-
-
-        background-color: var(--bg-brown);
-        background-image: url(../Assets/images/Group\ 9.png);
-    }
-
-    .container_5 .parent_1 {
-
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .container_5 .parent_1 h1 {
-        width: 167px;
-        font-size: 30px;
-        font-weight: 500;
-        font-family: kyiv;
-        margin-bottom: 38.3px;
-    }
-
-    .container_5 .parent_1 p {
-
-        width: 283px;
-        font-size: 15px;
-        font-weight: 500;
-    }
-
-    .container_5 .parent_2 {
-        width: 100%;
-        /* height: ; */
-        margin: 0 auto;
-    }
-
-    .container_5 .parent_2 .up_down_img {
-
-        width: 111px;
-        height: 112px;
-        border-radius: 14px;
-    }
-
-
-    .container_5 .parent_2 .center_img {
-
-        width: 190px;
-        height: 189px;
-        border-radius: 14px;
-
-        position: relative;
-        top: -105px;
-        right: 74px;
-    }
-
-
-    .container_5 .parent_2 .end_img {
-
-
-        position: relative;
-        bottom: 85px;
-        right: 35px;
-    }
-
-    /* container 5 ended */
 
 
     /* container 6 started */
