@@ -7,8 +7,12 @@ function toggleMenu() {
     if (menu_list.style.maxHeight == '0px') {
 
         menu_list.style.maxHeight = '300px'
-    }else{
+        
+
+    } else {
 
         menu_list.style.maxHeight == '0px'
+
     }
-}
+
+};

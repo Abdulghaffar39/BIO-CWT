@@ -1180,7 +1180,7 @@ footer .parent_3 {
 @media (max-width: 1024px) {
 
     nav {
-        background-color: var(--bg-brown);
+        background-color: transparent;
     }
 
     nav ul {
@@ -1193,7 +1193,6 @@ footer .parent_3 {
 
         flex-direction: column;
         overflow: hidden;
-        background-color: var(--bg-brown);
     }
 
     nav ul li {
