@@ -1181,6 +1181,7 @@ footer .parent_3 {
 
     nav {
         background-color: transparent;
+         transition: all 0.1s;
     }
 
     nav ul {
@@ -1207,7 +1208,7 @@ footer .parent_3 {
 
     #menu_list{
 
-        transition: all 0.5s;
+        transition: all 0.8s;
     }
 
     /* solid started */
