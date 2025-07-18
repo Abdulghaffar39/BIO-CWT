@@ -1,6 +1,14 @@
-var nav = document.querySelector('#nav_value')
-var icon = document.querySelector('#icon')
+let menu_list = document.getElementById('menu_list');
 
-function icon(){
-    nav += icon.innerHTML
+menu_list.style.maxHeight = '0px';
+
+function toggleMenu() {
+
+    if (menu_list.style.maxHeight == '0px') {
+
+        menu_list.style.maxHeight = '300px'
+    }else{
+
+        menu_list.style.maxHeight == '0px'
+    }
 }
