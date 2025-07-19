@@ -77,6 +77,14 @@ header nav .menu_icon img {
     height: 100%;
 }
 
+.menu_icon_2{
+
+    width: 50px;
+    height: 35px;
+    font-size: 40px;
+    display: none;
+}
+
 /* header ended */
 
 
@@ -1206,10 +1214,13 @@ footer .parent_3 {
         display: block !important;
     }
 
+
     #menu_list{
 
-        transition: all 0.8s;
+        transition: all 0.1s;
     }
+
+
 
     /* solid started */
     .solid {
